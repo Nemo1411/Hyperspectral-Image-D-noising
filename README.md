@@ -1,65 +1,60 @@
-Bien sûr, voici un exemple de fichier README pour votre projet GitHub :
+Certainly! Here's the README file for your GitHub project translated into English:
 
 ---
 
-# Débruitage d'images hyperspectrales avec Deep Learning
+# Hyperspectral Image Denoising with Deep Learning
 
 ## Description
-Ce projet vise à développer un système de débruitage pour les images hyperspectrales en utilisant des techniques de Deep Learning. Nous nous concentrons principalement sur l'utilisation de la base de données Pavia University (PaviaU), largement utilisée dans la communauté pour la recherche en traitement d'images hyperspectrales.
+This project aims to develop a denoising system for hyperspectral images using Deep Learning techniques. We primarily focus on utilizing the Pavia University (PaviaU) dataset, widely used in the community for hyperspectral image processing research.
 
-## Objectifs
-- Implémenter un modèle de Deep Learning pour le débruitage d'images hyperspectrales.
-- Expérimenter avec différentes architectures de réseaux neuronaux profonds pour optimiser les performances de débruitage.
-- Fournir un outil open-source pour la communauté de recherche en traitement d'images hyperspectrales.
+## Objectives
+- Implement a Deep Learning model for denoising hyperspectral images.
+- Experiment with different deep neural network architectures to optimize denoising performance.
+- Provide an open-source tool for the hyperspectral image processing community.
 
-## Base de données
-Nous utiliserons la base de données Pavia University (PaviaU) pour l'entraînement, la validation et les tests de notre modèle. Cette base de données est composée d'images hyperspectrales acquises par un capteur aéroporté au-dessus de la ville de Pavia, en Italie.
+## Dataset
+We will use the Pavia University (PaviaU) dataset for training, validation, and testing of our model. This dataset consists of hyperspectral images acquired by an airborne sensor over the city of Pavia, Italy.
 
-## Technologies utilisées
-- Python : Langage de programmation principal pour l'implémentation du modèle.
-- TensorFlow ou PyTorch : Bibliothèques de Deep Learning pour la création et l'entraînement des modèles.
-- NumPy : Bibliothèque pour le calcul numérique.
-- Matplotlib : Bibliothèque pour la visualisation des données.
+## Technologies Used
+- Python: Primary programming language for model implementation.
+- TensorFlow: Deep Learning libraries for model creation and training.
+- NumPy: Library for numerical computation.
+- Matplotlib: Library for data visualization.
 
 ## Installation
-1. Cloner ce dépôt :
+1. Clone this repository:
    ```
-   git clone https://github.com/votre_nom/debruitage-images-hyperspectrales.git
+   git clone https://github.com/Nemo1411/hyperspectral-Image-D-noising.git
    ```
-2. Installer les dépendances :
+2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r numpy
+   pip install -r keras
+   pip install -r scipy
+   pip install -r tensorflow
+   pip install -r matplotlib
    ```
 
-## Utilisation
-1. Télécharger la base de données Pavia University à partir du lien suivant : [Pavia University Hyperspectral Dataset](lien_vers_la_base_de_donnees).
-2. Placer les fichiers de données dans le répertoire `data/`.
-3. Exécuter le script d'entraînement du modèle :
-   ```
-   python train.py
-   ```
-4. Évaluer les performances du modèle avec le script d'évaluation :
-   ```
-   python evaluate.py
-   ```
+## Usage
+1. Download the entire dataset.
+2. Place the data files in the `data/` directory.
+3. Run the model training script.
+
+## Note:
+Increase the number of iterations for better results.
 
 ## Contribution
-Les contributions à ce projet sont les bienvenues. Pour contribuer, veuillez suivre les étapes suivantes :
-1. Forker le dépôt.
-2. Créer une nouvelle branche (`git checkout -b feature/ajout-fonctionnalite`).
-3. Faire les modifications nécessaires et les tester.
-4. Valider les modifications (`git commit -am 'Ajout d'une fonctionnalité'`).
-5. Pousser les modifications vers la branche (`git push origin feature/ajout-fonctionnalite`).
-6. Créer une nouvelle Pull Request.
+Contributions to this project are welcome. To contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/add-feature`).
+3. Make necessary changes and test them.
+4. Commit changes (`git commit -am 'Add a feature'`).
+5. Push changes to the branch (`git push origin feature/add-feature`).
+6. Create a new Pull Request.
 
-## Auteurs
-- [Votre nom](lien_vers_votre_profil_github)
-- [Collaborateur 1](lien_vers_leur_profil_github)
-- [Collaborateur 2](lien_vers_leur_profil_github)
-
-## Licence
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+## Authors
+- [Ryane_IRBOUH](https://github.com/Nemo1411)
 
 --- 
 
-N'oubliez pas de personnaliser les sections avec les informations spécifiques à votre projet, comme les liens vers la base de données Pavia University et vers vos profils GitHub.
+Feel free to adjust or expand any sections as needed!
