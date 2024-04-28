@@ -24,7 +24,7 @@ We will use the Pavia University (PaviaU) dataset for training, validation, and 
 ## Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/Nemo1411/hyperspectral-Image-Denoising.git
+   git clone https://github.com/Nemo1411/hyperspectral-Image-D-noising.git
    ```
 2. Install dependencies:
    ```
