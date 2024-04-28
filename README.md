@@ -38,7 +38,7 @@ We will use the Pavia University (PaviaU) dataset for training, validation, and 
 ## Usage
 1. Download the entire dataset.
 2. https://drive.google.com/file/d/1RBKR9ucK3V_HEbZRJktAGf7QGSzaWE7L/view?usp=sharing
-3. Place the data files in the `data/` directory.
+3. Place the data files in the `data/hsi_data/demo` directory.
 4. Run the model training script.
 
 ## Note:
