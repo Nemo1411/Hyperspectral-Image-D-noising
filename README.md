@@ -43,6 +43,7 @@ We will use the Pavia University (PaviaU) dataset for training, validation, and 
 
 ## Note:
 Increase the number of iterations for better results.
+Or use the pretrained models to see different results
 
 ## Contribution
 Contributions to this project are welcome. To contribute, please follow these steps:
