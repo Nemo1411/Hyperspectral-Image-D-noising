@@ -41,6 +41,9 @@ We will use the Pavia University (PaviaU) dataset for training, validation, and 
 3. Place the data files in the `data/hsi_data/demo` directory.
 4. Run the model training script.
 
+## Help function
+Those functions are juste here to help set up a dataset
+
 ## Note:
 Increase the number of iterations for better results.
 Or use the pretrained models to see different results
